@@ -12,11 +12,9 @@ import {
 } from "@/components/ui/sheet";
 import { TextAlignJustify } from "lucide-react";
 
-type Props = {};
-
-const Header = (props: Props) => {
+const Header = () => {
   return (
-    <header className="w-full fixed top-0 bg-blue-950 py-8">
+    <header className="w-full fixed top-0 bg-blue-950 py-8 z-20">
       <div className="container">
         <div className="flex items-center justify-between">
           <Image
@@ -52,7 +50,8 @@ const Header = (props: Props) => {
                 </SheetTrigger>
                 <SheetContent
                   side="top"
-                  className="top-0 left-0 right-0 h-[100vh] rounded-b-xl animate-slideDown z-50 overflow-y-auto"
+                  className="top-0 left-0 right-0 h-[70vh] rounded-b-xl animate-slideDown 
+                  z-50 overflow-y-auto flex flex-col items-center justify-center"
                 >
                   <SheetHeader>
                     <SheetTitle className="text-center mt-10 mb-8 text-3xl">
