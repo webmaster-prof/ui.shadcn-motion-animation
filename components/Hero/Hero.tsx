@@ -6,9 +6,9 @@ import {
   CarouselPrevious,
 } from "@/components/ui/carousel";
 import Image from "next/image";
-import heroOne from "@/assets/hero-1.jpg";
-import heroThu from "@/assets/hero-2.jpg";
-import heroThre from "@/assets/hero-3.jpg";
+import heroOne from "@/public/images/hero-1.jpg";
+import heroThu from "@/public/images/hero-2.jpg";
+import heroThre from "@/public/images/hero-3.jpg";
 
 type Props = {};
 

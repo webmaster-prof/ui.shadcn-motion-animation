@@ -9,10 +9,10 @@ module.exports = {
   theme: {
     extend: {
       screens: {
-        // desktop: { max: "1535px" },
-        // laptop: { max: "1279px" },
-        // tablet: { max: "1023px" },
+        desktop: { max: "1500px" },
+        laptop: { max: "1000px" },
         mobile: { max: "880px" },
+        mobile2: { max: "768px" },
         minmobile: { max: "440px" },
       },
       fontFamily: {

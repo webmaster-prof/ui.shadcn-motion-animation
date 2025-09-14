@@ -1,5 +1,5 @@
 import Image from "next/image";
-import headerLogo from "@/assets/header-logo.png";
+import headerLogo from "@/public/images/header-logo.png";
 import { headerData } from "@/data/header-data";
 import Link from "next/link";
 import { Button } from "../ui/button";
