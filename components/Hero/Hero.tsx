@@ -39,8 +39,8 @@ const Hero = (props: Props) => {
             />
           </CarouselItem>
         </CarouselContent>
-        <CarouselPrevious className="absolute top-1/2 left-4 -translate-y-1/2 z-10 text-white bg-orange-500" />
-        <CarouselNext className="absolute top-1/2 right-4 -translate-y-1/2 z-10 text-white bg-orange-500" />
+        <CarouselPrevious className="absolute top-1/2 left-4 -translate-y-1/2 z-10 text-white bg-orange-500 h-[50px] w-[50px] [&>svg]:w-8 [&>svg]:h-8" />
+        <CarouselNext className="absolute top-1/2 right-4 -translate-y-1/2 z-10 text-white bg-orange-500 h-[50px] w-[50px] [&>svg]:w-8 [&>svg]:h-8" />
       </Carousel>
     </section>
   );

@@ -9,7 +9,7 @@ type Props = {};
 
 const AccordionDemo = () => {
   return (
-    <section className="mt-[80px]  mb-[100px]">
+    <section className="mt-[80px]">
       <div className="container">
         <h2 className="text-center text-orange-500 uppercase text-[35px] font-semibold mb-[60px]  laptop:mb-[20px]">
           Travel Info
