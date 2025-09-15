@@ -1,3 +1,4 @@
+import Accordion from "@/components/Accordion/Accordion";
 import Cards from "@/components/Cards/Cards";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
@@ -8,6 +9,7 @@ export default function Home() {
       <Header />
       <Hero />
       <Cards />
+      <Accordion />
     </main>
   );
 }
