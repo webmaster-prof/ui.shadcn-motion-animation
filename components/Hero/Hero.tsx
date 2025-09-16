@@ -7,7 +7,7 @@ import {
 } from "@/components/ui/carousel";
 import Image from "next/image";
 import heroOne from "@/public/images/hero-1.jpg";
-import heroThu from "@/public/images/hero-2.jpg";
+import heroThu from "@/public/images/card-4.jpg";
 import heroThre from "@/public/images/hero-3.jpg";
 
 type Props = {};
@@ -21,21 +21,21 @@ const Hero = (props: Props) => {
             <Image
               src={heroOne}
               alt="image-slider"
-              className="object-cover h-[700px]"
+              className="object-cover h-[700px] w-full"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={heroThu}
               alt="image-slider"
-              className="object-cover h-[700px]"
+              className="object-cover h-[700px] w-full"
             />
           </CarouselItem>
           <CarouselItem>
             <Image
               src={heroThre}
               alt="image-slider"
-              className="object-cover h-[700px]"
+              className="object-cover h-[700px] w-full"
             />
           </CarouselItem>
         </CarouselContent>

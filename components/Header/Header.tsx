@@ -14,7 +14,7 @@ import { TextAlignJustify } from "lucide-react";
 
 const Header = () => {
   return (
-    <header className="w-full fixed top-0 bg-blue-950 py-8 z-20">
+    <header className="w-full fixed top-0 bg-blue-950 py-8 z-30">
       <div className="container">
         <div className="flex items-center justify-between">
           <Image
