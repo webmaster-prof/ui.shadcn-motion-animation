@@ -15,6 +15,9 @@ module.exports = {
         desktop2: {
           max: "1200px",
         },
+        laptop1: {
+          max: "1024px",
+        },
         laptop: {
           max: "1000px",
         },
