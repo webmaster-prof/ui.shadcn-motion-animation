@@ -29,7 +29,7 @@ const CardItem = ({ image, title, desc }: Props) => {
         <CardTitle className="text-orange-500 text-[27px] text-center">
           {title}
         </CardTitle>
-        <CardDescription className="text-black text-center text-[18px] font-semibold fontDM capitalize">
+        <CardDescription className="text-black text-center text-[18px] text-orange-500 font-semibold fontDM capitalize">
           {desc}
         </CardDescription>
       </CardHeader>

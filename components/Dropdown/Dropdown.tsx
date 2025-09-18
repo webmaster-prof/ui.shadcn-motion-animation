@@ -20,9 +20,8 @@ export function DropdownMenuDemo() {
     <DropdownMenu modal={false}>
       <DropdownMenuTrigger asChild>
         <Button
-          className="w-[15%] shadow-none mx-auto bg-transparent pb-0 mb-[10px] border-none text-orange-500 
-          text-[20px] mobile:text-[40px] relative font-dm  
-          before:absolute before:content-[''] before:left-1/2 before:bottom-0 before:w-0 before:h-[2px]
+          className="w-[15%] shadow-none mx-auto bg-transparent pb-0 translate-y-[-3px] border-none text-orange-500 
+          text-[20px] mobile:text-[40px] relative font-dm before:absolute before:content-[''] before:left-1/2 before:bottom-0 before:w-0 before:h-[2px]
            before:bg-orange-600 hover:bg-transparent hover:before:w-full  hover:before:left-0
             before:transition-all duration-100"
         >
