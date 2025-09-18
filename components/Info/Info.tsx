@@ -1,3 +1,5 @@
+"use client";
+
 import {
   Carousel,
   CarouselContent,
@@ -8,10 +10,9 @@ import {
 import { Card } from "../ui/card";
 import Image from "next/image";
 import { infoData } from "@/data/info-data";
+import { motion } from "framer-motion";
 
-type Props = {};
-
-const Info = (props: Props) => {
+const Info = () => {
   return (
     <section className="mt-[130px]  desktop2:mt-[90px] mobile2:mt-[40px]">
       <div className="container">
@@ -23,25 +24,21 @@ const Info = (props: Props) => {
             className="w-full relative"
           >
             <CarouselContent>
-              {infoData.map((item) => (
+              {infoData.map((item, i) => (
                 <CarouselItem
                   key={item.id}
                   className="basis-1/3 desktop2:basis-1/2 mobile2:basis-full"
                 >
-                  <div className="p-1">
-                    <Card>
-                      <Card className="flex aspect-square items-center justify-center p-2">
-                        <div className="relative w-full h-full">
-                          <Image
-                            src={item.image}
-                            alt="image"
-                            fill
-                            className="rounded-[5px] object"
-                          />
-                        </div>
-                      </Card>
-                    </Card>
-                  </div>
+                  <Card className="flex aspect-square items-center justify-center p-2">
+                    <div className="relative w-full h-full">
+                      <Image
+                        src={item.image}
+                        alt="image"
+                        fill
+                        className="rounded-[5px] object"
+                      />
+                    </div>
+                  </Card>
                 </CarouselItem>
               ))}
             </CarouselContent>
