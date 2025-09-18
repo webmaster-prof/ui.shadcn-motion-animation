@@ -5,6 +5,7 @@ import Form from "@/components/Form/Form";
 import Header from "@/components/Header/Header";
 import Hero from "@/components/Hero/Hero";
 import Info from "@/components/Info/Info";
+import Testimonials from "@/components/MobileMenu/Testimonials";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       <Accordion />
       <Info />
       <DialogSection />
+      <Testimonials />
       <Form />
     </main>
   );

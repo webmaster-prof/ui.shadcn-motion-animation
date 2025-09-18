@@ -5,7 +5,7 @@ import { Textarea } from "../ui/textarea";
 
 const Form = () => {
   return (
-    <section className=" bg-black py-[50px]">
+    <section className="bg-black py-[50px] mt-[80px]">
       <div className="container">
         <div>
           <h2 className="text-center text-orange-500 uppercase text-[35px] font-semibold mb-[30px]  laptop:mb-[20px]">
