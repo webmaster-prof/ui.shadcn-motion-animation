@@ -29,16 +29,24 @@ const Info = () => {
                   key={item.id}
                   className="basis-1/3 desktop2:basis-1/2 mobile2:basis-full"
                 >
-                  <Card className="flex aspect-square items-center justify-center p-2">
-                    <div className="relative w-full h-full">
-                      <Image
-                        src={item.image}
-                        alt="image"
-                        fill
-                        className="rounded-[5px] object"
-                      />
-                    </div>
-                  </Card>
+                  <motion.div
+                    initial={{ opacity: 0, y: 50 }}
+                    whileInView={{ opacity: 1, y: 0 }}
+                    viewport={{ once: true, margin: "-50px" }}
+                    transition={{ duration: 0.6, delay: i * 0.4 }}
+                    className="p-1"
+                  >
+                    <Card className="flex aspect-square items-center justify-center p-2">
+                      <div className="relative w-full h-full">
+                        <Image
+                          src={item.image}
+                          alt="image"
+                          fill
+                          className="rounded-[5px] object"
+                        />
+                      </div>
+                    </Card>
+                  </motion.div>
                 </CarouselItem>
               ))}
             </CarouselContent>
